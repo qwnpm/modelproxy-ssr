@@ -1,0 +1,26 @@
+{
+  "name": "modelproxy-ssr",
+  "version": "1.0.1",
+  "description": "接口配置建模框架",
+  "main": "out/index.js",
+  "scripts": {
+    "test": "mocha test/**/*.js",
+    "build": "tsc -d"
+  },
+  "typings": "./out/index.d.ts",
+  "author": "qinwen",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/chai": "^3.4.35",
+    "@types/json-pointer": "^1.0.30",
+    "bluebird": "^3.5.0",
+    "chai": "~3.4.1",
+    "mocha": "~2.3.4",
+    "mochawesome": "~1.2.1",
+    "typescript": "^2.1.5"
+  },
+  "dependencies": {
+    "path-to-regexp": "^1.7.0",
+    "url-search-params-polyfill": "^2.0.0"
+  }
+}
